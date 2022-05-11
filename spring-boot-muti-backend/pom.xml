@@ -7,7 +7,7 @@
         <module>controller</module>
         <module>service</module>
         <module>dao</module>
-        <module>config</module>
+        <module>Application</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -8,14 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="controller" />
         <module name="dao" />
-        <module name="config" />
+        <module name="Application" />
         <module name="service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="config" options="-parameters" />
+      <module name="Application" options="-parameters" />
       <module name="controller" options="-parameters" />
       <module name="dao" options="-parameters" />
       <module name="service" options="-parameters" />

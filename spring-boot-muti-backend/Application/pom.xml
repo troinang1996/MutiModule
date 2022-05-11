@@ -9,8 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dao</artifactId>
+    <artifactId>Application</artifactId>
     <packaging>jar</packaging>
+    <name>Project Module - Config</name>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -19,10 +20,9 @@
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>service</artifactId>
+            <artifactId>dao</artifactId>
             <version>${project.version}</version>
         </dependency>
-
     </dependencies>
 
 </project>

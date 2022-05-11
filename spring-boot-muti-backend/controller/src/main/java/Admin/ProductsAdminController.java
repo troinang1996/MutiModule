@@ -6,12 +6,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import Entity.Product;
+import com.laptrinh.Entity.Product;
 
 import java.util.List;
 
 @Controller
-@RequestMapping("/admin/product")
+@RequestMapping("/product")
 public class ProductsAdminController {
     @Autowired
     IProductService productService;
@@ -20,6 +20,10 @@ public class ProductsAdminController {
         List<Product> productList = productService.findAll();
 
         return ResponseEntity.ok().body(productList.stream().toArray(Product[]::new));
+    }
+    @GetMapping("/hello")
+    public String hello(){
+        return "hello";
     }
 
 }

@@ -24,7 +24,7 @@
         </dependency>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>config</artifactId>
+            <artifactId>Application</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
